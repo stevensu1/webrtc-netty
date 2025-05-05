@@ -1,0 +1,176 @@
+2025-05-06 07:29:32.873 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe29b30ee] REGISTERED
+2025-05-06 07:29:32.881 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe29b30ee] BIND: 0.0.0.0/0.0.0.0:8080
+2025-05-06 07:29:32.888 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe29b30ee, L:/[0:0:0:0:0:0:0:0]:8080] ACTIVE
+2025-05-06 07:29:32.886 [main] INFO  com.example.webrtc.WebRTCServer - WebRTC信令服务器启动，监听端口: 8080
+2025-05-06 07:32:22.136 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988] REGISTERED
+2025-05-06 07:32:22.142 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988] BIND: 0.0.0.0/0.0.0.0:8080
+2025-05-06 07:32:22.145 [main] INFO  com.example.webrtc.WebRTCServer - WebRTC信令服务器启动，监听端口: 8080
+2025-05-06 07:32:22.146 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] ACTIVE
+2025-05-06 07:32:37.252 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xdf4eccf0, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57331]
+2025-05-06 07:32:37.256 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x579488ba, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57332]
+2025-05-06 07:32:37.258 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:32:37.377 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57331
+2025-05-06 07:32:37.377 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57332
+2025-05-06 07:33:36.809 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57332
+2025-05-06 07:33:49.369 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x6bdd5656, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57387]
+2025-05-06 07:33:49.377 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:33:49.381 [nioEventLoopGroup-3-3] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57387
+2025-05-06 07:33:49.405 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57331
+2025-05-06 07:34:28.469 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x0d5f55cd, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57410]
+2025-05-06 07:34:28.471 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:34:28.474 [nioEventLoopGroup-3-4] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57410
+2025-05-06 07:34:28.493 [nioEventLoopGroup-3-3] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57387
+2025-05-06 07:35:15.912 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xc4644647, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57445]
+2025-05-06 07:35:15.913 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:35:15.915 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57445
+2025-05-06 07:36:40.978 [nioEventLoopGroup-3-4] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57410
+2025-05-06 07:36:58.166 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xcb9fd959, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57536]
+2025-05-06 07:36:58.168 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:36:58.170 [nioEventLoopGroup-3-6] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57536
+2025-05-06 07:36:58.183 [nioEventLoopGroup-3-6] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57536
+2025-05-06 07:37:01.946 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xc41bdb48, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57541]
+2025-05-06 07:37:01.948 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:37:01.951 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57541
+2025-05-06 07:37:01.968 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57445
+2025-05-06 07:37:02.013 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xeef90b1d, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:57546]
+2025-05-06 07:37:02.014 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd8864988, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:37:02.016 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:57546
+2025-05-06 07:37:02.023 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57546
+2025-05-06 07:41:17.031 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:57541
+2025-05-06 07:42:14.876 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1] REGISTERED
+2025-05-06 07:42:14.884 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1] BIND: 0.0.0.0/0.0.0.0:8080
+2025-05-06 07:42:14.889 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] ACTIVE
+2025-05-06 07:42:14.888 [com.example.webrtc.WebRTCServer.main()] INFO  com.example.webrtc.WebRTCServer - WebRTC信令服务器启动，监听端口: 8080
+2025-05-06 07:42:23.382 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x4563caa5, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58366]
+2025-05-06 07:42:23.386 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x2b03ec78, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58367]
+2025-05-06 07:42:23.389 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:42:23.519 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58367
+2025-05-06 07:42:23.519 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58366
+2025-05-06 07:42:23.756 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58367
+2025-05-06 07:42:46.485 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xac2fecb7, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58382]
+2025-05-06 07:42:46.486 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:42:46.488 [nioEventLoopGroup-3-3] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58382
+2025-05-06 07:42:46.532 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58366
+2025-05-06 07:42:46.607 [nioEventLoopGroup-3-3] INFO  c.e.webrtc.service.SignalingService - 用户 123 加入房间 1234, 当前房间人数: 1
+2025-05-06 07:43:30.854 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xb34d0773, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58428]
+2025-05-06 07:43:30.856 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:43:30.857 [nioEventLoopGroup-3-4] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58428
+2025-05-06 07:43:30.858 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xbdecd92b, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58429]
+2025-05-06 07:43:30.860 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:43:30.861 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58429
+2025-05-06 07:43:35.475 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x81af04bd, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58434]
+2025-05-06 07:43:35.476 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:43:35.477 [nioEventLoopGroup-3-6] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58434
+2025-05-06 07:43:35.503 [nioEventLoopGroup-3-6] INFO  c.e.webrtc.service.SignalingService - 用户 asdf 加入房间 1234, 当前房间人数: 2
+2025-05-06 07:43:35.541 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58429
+2025-05-06 07:45:58.974 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x1c6335e0, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58524]
+2025-05-06 07:45:58.976 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:45:58.976 [nioEventLoopGroup-3-4] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58428
+2025-05-06 07:45:58.978 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58524
+2025-05-06 07:45:58.989 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58524
+2025-05-06 07:46:26.604 [nioEventLoopGroup-3-3] INFO  c.e.webrtc.service.SignalingService - 用户 123 离开房间 1234
+2025-05-06 07:46:26.614 [nioEventLoopGroup-3-3] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58382
+2025-05-06 07:46:36.049 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x241f3b23, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58561]
+2025-05-06 07:46:36.051 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:46:36.053 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58561
+2025-05-06 07:46:36.070 [nioEventLoopGroup-3-8] INFO  c.e.webrtc.service.SignalingService - 用户 1234 加入房间 1234, 当前房间人数: 2
+2025-05-06 07:48:44.062 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xe6e562ea, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58712]
+2025-05-06 07:48:44.064 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xba8220a9, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58713]
+2025-05-06 07:48:44.067 [nioEventLoopGroup-3-9] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58712
+2025-05-06 07:48:44.068 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:48:44.068 [nioEventLoopGroup-3-10] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58713
+2025-05-06 07:48:49.791 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x3e0e9347, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58723]
+2025-05-06 07:48:49.792 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:48:49.794 [nioEventLoopGroup-3-11] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58723
+2025-05-06 07:48:49.828 [nioEventLoopGroup-3-11] INFO  c.e.webrtc.service.SignalingService - 用户 adsf 加入房间 1234, 当前房间人数: 3
+2025-05-06 07:48:49.869 [nioEventLoopGroup-3-9] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58712
+2025-05-06 07:49:02.314 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x9251b44d, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58743]
+2025-05-06 07:49:02.320 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:49:02.327 [nioEventLoopGroup-3-12] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58743
+2025-05-06 07:49:09.141 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x8d8121e5, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:58760]
+2025-05-06 07:49:09.144 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:49:09.145 [nioEventLoopGroup-3-13] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:58760
+2025-05-06 07:49:09.182 [nioEventLoopGroup-3-13] INFO  c.e.webrtc.service.SignalingService - 用户 fgh 加入房间 1234, 当前房间人数: 4
+2025-05-06 07:49:09.420 [nioEventLoopGroup-3-10] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58713
+2025-05-06 07:59:49.847 [nioEventLoopGroup-3-12] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58743
+2025-05-06 07:59:50.446 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xfa569249, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59568]
+2025-05-06 07:59:50.448 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 07:59:50.450 [nioEventLoopGroup-3-14] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59568
+2025-05-06 08:00:15.767 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xa2d3832d, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59622]
+2025-05-06 08:00:15.768 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x469ae7af, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59623]
+2025-05-06 08:00:15.770 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xbefff4c1, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:00:15.773 [nioEventLoopGroup-3-15] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59622
+2025-05-06 08:00:15.773 [nioEventLoopGroup-3-16] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59623
+2025-05-06 08:00:19.834 [nioEventLoopGroup-3-15] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59622
+2025-05-06 08:01:50.408 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xafa33b34] REGISTERED
+2025-05-06 08:01:50.441 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xafa33b34] BIND: 0.0.0.0/0.0.0.0:8080
+2025-05-06 08:01:50.477 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xafa33b34] CLOSE
+2025-05-06 08:01:50.480 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xafa33b34] UNREGISTERED
+2025-05-06 08:02:25.057 [nioEventLoopGroup-3-16] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59623
+2025-05-06 08:02:27.629 [nioEventLoopGroup-3-13] INFO  c.e.webrtc.service.SignalingService - 用户 fgh 离开房间 1234
+2025-05-06 08:02:27.827 [nioEventLoopGroup-3-13] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58760
+2025-05-06 08:02:28.974 [nioEventLoopGroup-3-11] INFO  c.e.webrtc.service.SignalingService - 用户 adsf 离开房间 1234
+2025-05-06 08:02:29.097 [nioEventLoopGroup-3-11] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58723
+2025-05-06 08:02:30.259 [nioEventLoopGroup-3-6] INFO  c.e.webrtc.service.SignalingService - 用户 asdf 离开房间 1234
+2025-05-06 08:02:30.437 [nioEventLoopGroup-3-6] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58434
+2025-05-06 08:02:31.612 [nioEventLoopGroup-3-8] INFO  c.e.webrtc.service.SignalingService - 房间 1234 已空，已删除
+2025-05-06 08:02:31.613 [nioEventLoopGroup-3-8] INFO  c.e.webrtc.service.SignalingService - 用户 1234 离开房间 1234
+2025-05-06 08:02:31.615 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:58561
+2025-05-06 08:02:52.794 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28] REGISTERED
+2025-05-06 08:02:52.798 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28] BIND: 0.0.0.0/0.0.0.0:8080
+2025-05-06 08:02:52.802 [main] INFO  com.example.webrtc.WebRTCServer - WebRTC信令服务器启动，监听端口: 8080
+2025-05-06 08:02:52.803 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] ACTIVE
+2025-05-06 08:03:03.273 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x85404721, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59862]
+2025-05-06 08:03:03.275 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xe5ede9d9, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59863]
+2025-05-06 08:03:03.277 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:03.372 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59862
+2025-05-06 08:03:03.372 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59863
+2025-05-06 08:03:08.737 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xb980be6a, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59873]
+2025-05-06 08:03:08.754 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:08.756 [nioEventLoopGroup-3-3] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59873
+2025-05-06 08:03:08.887 [nioEventLoopGroup-3-1] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59862
+2025-05-06 08:03:09.058 [nioEventLoopGroup-3-3] INFO  c.e.webrtc.service.SignalingService - 用户 asdf 加入房间 123, 当前房间人数: 1
+2025-05-06 08:03:20.952 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xa062d04a, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59903]
+2025-05-06 08:03:20.956 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:20.958 [nioEventLoopGroup-3-4] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59903
+2025-05-06 08:03:20.985 [nioEventLoopGroup-3-4] INFO  c.e.webrtc.service.SignalingService - 用户 fassdf 加入房间 123, 当前房间人数: 2
+2025-05-06 08:03:21.070 [nioEventLoopGroup-3-2] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59863
+2025-05-06 08:03:24.939 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x10ce3fee, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59911]
+2025-05-06 08:03:24.941 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:24.944 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59911
+2025-05-06 08:03:29.929 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x61034c4d, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59916]
+2025-05-06 08:03:29.934 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:29.936 [nioEventLoopGroup-3-6] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59916
+2025-05-06 08:03:29.974 [nioEventLoopGroup-3-6] INFO  c.e.webrtc.service.SignalingService - 用户 234 加入房间 123, 当前房间人数: 3
+2025-05-06 08:03:30.156 [nioEventLoopGroup-3-5] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59911
+2025-05-06 08:03:46.808 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x36d8a2a5, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59945]
+2025-05-06 08:03:46.811 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x60623a52, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:59946]
+2025-05-06 08:03:46.814 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:03:46.814 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59945
+2025-05-06 08:03:46.816 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:59946
+2025-05-06 08:03:50.566 [nioEventLoopGroup-3-7] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59945
+2025-05-06 08:05:10.449 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x78c846b9, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60009]
+2025-05-06 08:05:10.450 [nioEventLoopGroup-3-8] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:59946
+2025-05-06 08:05:10.451 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:10.454 [nioEventLoopGroup-3-9] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60009
+2025-05-06 08:05:10.461 [nioEventLoopGroup-3-9] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:60009
+2025-05-06 08:05:33.910 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xf4851f30, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60035]
+2025-05-06 08:05:33.912 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:33.914 [nioEventLoopGroup-3-10] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60035
+2025-05-06 08:05:35.156 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xca389f78, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60051]
+2025-05-06 08:05:35.158 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:35.162 [nioEventLoopGroup-3-11] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60051
+2025-05-06 08:05:43.772 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x215d8616, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60057]
+2025-05-06 08:05:43.773 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:43.775 [nioEventLoopGroup-3-12] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60057
+2025-05-06 08:05:43.803 [nioEventLoopGroup-3-12] INFO  c.e.webrtc.service.SignalingService - 用户 sd 加入房间 321, 当前房间人数: 1
+2025-05-06 08:05:44.091 [nioEventLoopGroup-3-10] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:60035
+2025-05-06 08:05:50.016 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0x41d640bb, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60068]
+2025-05-06 08:05:50.019 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:50.028 [nioEventLoopGroup-3-13] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60068
+2025-05-06 08:05:58.436 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ: [id: 0xbeecea99, L:/[0:0:0:0:0:0:0:1]:8080 - R:/[0:0:0:0:0:0:0:1]:60088]
+2025-05-06 08:05:58.451 [nioEventLoopGroup-2-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x806dfd28, L:/[0:0:0:0:0:0:0:0]:8080] READ COMPLETE
+2025-05-06 08:05:58.452 [nioEventLoopGroup-3-14] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端连接: /[0:0:0:0:0:0:0:1]:60088
+2025-05-06 08:05:58.471 [nioEventLoopGroup-3-14] INFO  c.e.webrtc.service.SignalingService - 用户 fd 加入房间 321, 当前房间人数: 2
+2025-05-06 08:05:59.037 [nioEventLoopGroup-3-11] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:60051
+2025-05-06 08:06:07.435 [nioEventLoopGroup-3-13] INFO  c.e.w.handler.WebSocketFrameHandler - 客户端断开连接: /[0:0:0:0:0:0:0:1]:60068
