@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC ICE 服务器搭建指南</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        pre {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 10px;
+            overflow-x: auto;
+            border-radius: 5px;
+        }
+        code {
+            font-family: monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .note {
+            background: #e8f4ff;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WebRTC ICE 服务器搭建指南</h1>
+        <p>STUN/TURN 服务器配置与集成</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>ICE 服务器的作用</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>组件</th>
+                        <th>功能</th>
+                        <th>用途</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>STUN</strong></td>
+                        <td>探测 NAT 类型，获取公网 IP 和端口</td>
+                        <td>帮助 ICE 协议发现网络路径</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TURN</strong></td>
+                        <td>中继服务器</td>
+                        <td>当直接连接失败时，作为中继转发媒体流</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>搭建 STUN/TURN 服务器（推荐使用 coturn）</h2>
+            <p><a href="https://github.com/coturn/coturn" target="_blank">coturn</a> 是一个开源的 STUN/TURN 服务器实现，广泛用于 WebRTC 项目。</p>
+
+            <h3>1. 安装 coturn（Linux 环境）</h3>
+            <h4>Ubuntu/Debian</h4>
+            <pre><code>sudo apt update
+sudo apt install coturn</code></pre>
+
+            <h4>CentOS/RHEL</h4>
+            <pre><code>sudo yum install epel-release
+sudo yum install coturn</code></pre>
+
+            <h3>2. 配置 coturn</h3>
+            <p>编辑配置文件（通常位于 <code>/etc/turnserver.conf</code>）：</p>
+            <pre><code>listening-port=3478
+tls-listening-port=5349
+
+external-ip=YOUR_PUBLIC_IP
+realm=yourdomain.com
+server-name=yourdomain.com
+
+lt-cred-mech
+use-auth-secret
+static-auth-secret=your-secret-key</code></pre>
+
+            <h3>3. 启动 coturn</h3>
+            <pre><code>sudo systemctl enable coturn
+sudo systemctl start coturn</code></pre>
+        </section>
+
+        <section>
+            <h2>安全配置建议</h2>
+            <ul>
+                <li>限制访问权限：通过防火墙限制 STUN/TURN 端口（默认 3478、5349）</li>
+                <li>启用 TLS：配置证书以支持 <code>turns://</code> 协议</li>
+                <li>限制中继带宽：在高并发场景中限制每个连接的带宽</li>
+                <li>防止滥用：通过 <code>static-auth-secret</code> 或数据库认证控制访问权限</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>测试 STUN/TURN 服务器</h2>
+            <h3>使用命令行工具测试 STUN：</h3>
+            <pre><code>turnutils_stunclient --host=your-stun-server-ip --port=3478</code></pre>
+
+            <h3>使用浏览器测试 TURN：</h3>
+            <p>在 WebRTC 应用中配置 ICE 服务器：</p>
+            <pre><code>const configuration = {
+  iceServers: [
+    {
+      urls: "stun:your-stun-server:3478"
+    },
+    {
+      urls: "turn:your-turn-server:3478",
+      username: "user",
+      credential: "password"
+    }
+  ]
+};
+
+const peerConnection = new RTCPeerConnection(configuration);</code></pre>
+        </section>
+
+        <section>
+            <h2>在 WebRTC 应用中使用 ICE 服务器</h2>
+            <p>只需在 <code>RTCPeerConnection</code> 的构造参数中配置 <code>iceServers</code>：</p>
+            <pre><code>const configuration = {
+  iceServers: [
+    {
+      urls: "stun:your-stun-server:3478"
+    },
+    {
+      urls: "turn:your-turn-server:3478",
+      username: "user",
+      credential: "password"
+    }
+  ]
+};
+
+const peerConnection = new RTCPeerConnection(configuration);</code></pre>
+        </section>
+
+        <section class="note">
+            <h2>常见问题排查</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>问题</th>
+                        <th>可能原因</th>
+                        <th>解决方案</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ICE 连接失败</td>
+                        <td>网络不通、NAT 类型限制</td>
+                        <td>检查 STUN/TURN 服务器是否可达</td>
+                    </tr>
+                    <tr>
+                        <td>TURN 中继失败</td>
+                        <td>配置错误、认证失败</td>
+                        <td>检查用户名/密码、共享密钥</td>
+                    </tr>
+                    <tr>
+                        <td>ICE 超时</td>
+                        <td>网络延迟、防火墙拦截</td>
+                        <td>检查防火墙规则、增加 ICE 超时时间</td>
+                    </tr>
+                    <tr>
+                        <td>多个候选地址冲突</td>
+                        <td>ICE 候选地址处理不当</td>
+                        <td>在前端逻辑中合理处理候选地址排序</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>总结</h2>
+            <ol>
+                <li>安装 coturn（开源 STUN/TURN 实现）</li>
+                <li>配置 STUN/TURN 服务器（IP、端口、认证）</li>
+                <li>启动并测试 coturn 服务</li>
+                <li>在 WebRTC 应用中配置 <code>iceServers</code></li>
+                <li>安全加固（防火墙、TLS、认证）</li>
+                <li>监控和日志分析（<code>/var/log/turnserver.log</code>）</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>补充：商业 ICE 服务器（可选）</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>服务</th>
+                        <th>特点</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://xirsys.com/" target="_blank">Xirsys</a></td>
+                        <td>提供 TURN/STUN 服务，支持全球部署</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.twilio.com/stun-ice" target="_blank">Twilio TURN</a></td>
+                        <td>提供 TURN 中继服务</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://agora.io/" target="_blank">Agora.io</a></td>
+                        <td>提供完整的 WebRTC 云服务</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WebRTC 指南</p>
+    </footer>
+</body>
+</html>
